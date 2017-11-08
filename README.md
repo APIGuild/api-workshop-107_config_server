@@ -12,6 +12,12 @@ Build Config-Server
 	compile('org.springframework.boot:spring-boot-starter-web')
 	compile('org.springframework.boot:spring-boot-starter-security')
 
+2. add annotations 
+
+
+    @EnableConfigServer
+    @EnableEurekaClient
+
 2. config properties
 
 
