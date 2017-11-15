@@ -31,9 +31,7 @@ Build Config-Server
     spring.cloud.config.server.git.password=password
     
     management.security.enabled=false
-    
-    management.security.roles=SUPERUSER
-    
+        
     endpoints.restart.enabled=true
     
     eureka.client.service-url.defaultZone=http://localhost:10000/eureka/

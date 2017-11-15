@@ -9,8 +9,6 @@ import org.springframework.cloud.endpoint.RefreshEndpoint;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 @SpringBootApplication
-@EnableConfigServer
-@EnableEurekaClient
 public class ConfigApplication {
 
 	@Autowired
